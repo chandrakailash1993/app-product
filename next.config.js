@@ -19,6 +19,7 @@ const nextConfig = {
         filename: "static/chunks/remoteEntry.js",
         exposes: {
           "./plp": "./pages/product/[id].js",
+          "./search": "./pages/search/index.js",
           "./pages-map": "./pages-map.js",
         },
         remotes: remotes(options.isServer),
