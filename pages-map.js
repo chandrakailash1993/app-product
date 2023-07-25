@@ -1,3 +1,3 @@
 export default {
-  "/product/*": "./product",
+  "/product/*": "./plp",
 };
